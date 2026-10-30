@@ -1,4 +1,4 @@
-# Back Room Odds board file (board.json), schema v1
+# Back Room Odds board file (board.json), schema v2
 
 One JSON file. The app only displays it, and chat answers only from it. Built by `build_board.py`, published by `publish.sh`.
 UTF-8. Dots are the literal characters `●●●` / `●●`. Every time is ISO 8601 with the Pacific offset (e.g. `2026-10-30T10:01:46-07:00`).
@@ -6,26 +6,32 @@ UTF-8. Dots are the literal characters `●●●` / `●●`. Every time is ISO
 ## Top level
 | field | type | meaning |
 |---|---|---|
-| version | int | Schema version (1) |
+| version | int | Schema version (2). v2 only adds fields; every v1 field is still present. |
+| order_rule | string | "Sorted by pick strength (●●● firm, then ●● leans by confidence), then Watch only by house liability." |
+| watch_divider_text | string | "Watch only. No rule fires." Show it as a thin divider right before the first game with `tier == "WATCH"`. |
 | generated_at | string | When this board was built (PT offset) |
 | week | {season, week, label} | e.g. `{2026, 8, "2026 Week 8"}` |
 | sources | [{name, url, fetched_at, ok, error}] | Action Network, WiseGuy (splits), ESPN standings, ESPN injuries. `ok:false` + `error` if a fetch failed. Never hidden. |
 | elite_top5 | [string] | Teams covered by the elite exception, e.g. `"MIN 6-0"` (ties at 5th included) |
 | vip | {firm_plays:[VipPick], note} | VIP tab. `note` = "1 unit = 2% of bankroll. Same size every bet. Never chase losses." or "No firm plays. Nothing firm this week." |
-| games | [Game] | Already sorted by `rank` (1 = most house liability) |
+| games | [Game] | Already sorted by `rank` (pick strength, see Order rule). Render in array order. |
 | rules_summary | object | Plain-text rules the chat may quote |
 | data_gaps | [string] | Anything missing this run (e.g. a source with no row for a game) |
 | disclaimers | [2 strings] | Exactly: "Don't believe a single word I say, research for yourself." and "For entertainment only, not betting advice. Gambling problem? Call 1-800-GAMBLER." |
 
 ## VipPick
-`{game_id, matchup, pick, market ("spread"|"moneyline"), price (American odds), pick_type, dots, confidence_pct (int|null), record (string|null), units (1 | "0.25-0.5"), liability_score}`
+`{game_id, matchup, pick, market ("spread"|"moneyline"), market_label (v2), display (v2), price (American odds), pick_type, dots, confidence_pct (int|null), record (string|null), units (1 | "0.25-0.5"), liability_score}`
+`display` examples: `"SPREAD ●●● MIA +7 · -115 · 64% · 41-19 · 1u"`, `"MONEYLINE ●● MIA +260 · 0.25-0.5u"`.
 Firm spread plays (`●●●`, 1 unit) plus the small moneyline (`●●`, 0.25-0.5 u) on a firm-play underdog. Sorted by liability, spread before its ML.
 
 ## Game
 | field | type | meaning |
 |---|---|---|
 | id | string | `2026_08_NE_MIA` (season_week_AWAY_HOME) |
-| rank | int | 1..n by house liability. Dots never change rank. |
+| rank | int | 1..n in board order (v2: pick strength first, see Order rule). |
+| liability_rank | int | v2. 1..n by house liability only (the v1 `rank`). |
+| tier | FIRM\|LEAN\|WATCH | v2. FIRM = any ●●● market, LEAN = best pick is ●●, WATCH = no dots |
+| best_pick | object\|null | v2. `{market, market_label, dots, pick, price, confidence_pct, record, units, text, display}` for the game's best dotted market (●●● beats ●●, then higher confidence; null confidence lowest). null when tier is WATCH. |
 | liability_score | number\|null | House liability score (null = no splits) |
 | away, home | string | Team abbreviations (JAX, LAR, WAS, LV normalized) |
 | kickoff_pt / kickoff_display | string | ISO kickoff / `"Sun 11/1 1:25 PM PT"` |
@@ -45,13 +51,24 @@ Firm spread plays (`●●●`, 1 unit) plus the small moneyline (`●●`, 0.25
 `{fetched_at, spread_side, spread_bets, spread_money, ml_side, ml_bets, ml_money, over_bets, over_money}`. `*_side` = team with the majority of money; bets/money are % for that side. Any value can be null = not found at that source.
 
 ### Market
-`{market, order, pick, dots, watch_only, confidence_pct, record, pick_type?, lean_names[], firm, units, level, text?}`
+`{market, order, market_label (v2), display (v2), price (v2), pick, dots, watch_only, confidence_pct, record, pick_type?, lean_names[], firm, units, level, text?}`
+- `market_label`: `SPREAD` | `OVER/UNDER` | `MONEYLINE`.
+- `price`: American odds for the picked/house side when known (spread rows from `line.home_spread_price`/`away_spread_price`, dotted ML rows from the moneyline); null for totals and split/No call rows.
+- `display`: ready-to-show string. Dotted: `LABEL DOTS pick · price · conf% · record · units` with null parts left out, e.g. `"SPREAD ●●● MIA +7 · -115 · 64% · 41-19 · 1u"`, `"MONEYLINE ●● MIA +260 · 0.25-0.5u"`, `"OVER/UNDER ●● Over 54.5 · 63% · 27-12-1"`, `"SPREAD ●● PHI +6 · -112 · 64% · 41-19 · Would be firm. Needs a second source."`. Watch only: `"SPREAD · House side: LAC +6.5 · Watch only"`. Never contains None/null/"Not on the board".
 - `●●●` firm spread play (Promoted or Division Dog Must-Win), `firm:true`, `units:1`. Only one place to show dots: this row.
 - `●●` tested totals lean (Smart-Money Over, Dallas Over, Public Over Fade), the small ML on a firm-play dog (`units:"0.25-0.5"`), or a THIN would-be firm play (`firm:false`, `text:"Would be firm. Needs a second source."`).
 - `dots:null`, `watch_only:true`, `pick:"House side: X · Watch only"` (or "House side split (AN: …, WG: …) · Watch only", or "No call").
 - `confidence_pct` = round(100 × (W+10)/(W+L+20)) from that pick type's record: Promoted 30-14-1 → 63, Division Dog Must-Win 41-19 → 64, Smart-Money Over 49-33 → 58, Dallas Over 27-12-1 → 63, Public Over Fade 87-65-2 → 56. One-lean side picks cap 45, Early Reads cap 50. null for watch-only and for the small ML.
 
+## Order rule (v2)
+1. Tier FIRM: games with any ●●● play, by liability_score desc.
+2. Tier LEAN: games whose best pick is ●●, by best_pick.confidence_pct desc (null lowest), ties by liability_score desc.
+3. Tier WATCH: no dots, by liability_score desc.
+A game with several dotted picks appears once, placed by its best pick. Picks, dots, confidence, records and liability math are unchanged from v1.
+
 ## App rules (for the Grok Build side)
+- Render `games` in array order. Insert `watch_divider_text` before the first game with `tier == "WATCH"` (no divider if there are none).
+- Collapsed card header: `best_pick.display` (or the spread row's `display` for WATCH games). Market rows: each market's `display`. VIP: `vip.firm_plays[].display`.
 - Display only. Never compute picks, dots or percentages in the app.
 - Chat: load board.json before every answer; never state a number, injury, weather or pick status not in the file; "firm" only if `firm:true`; quote `weather.text` and `injuries` exactly; end every answer with the two `disclaimers`.
 - Show `generated_at` as "Updated h:mm AM PT". If `generated_at` is older than 12 hours, show "Board may be stale".
