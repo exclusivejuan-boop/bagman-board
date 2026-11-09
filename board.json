@@ -4,7 +4,7 @@
  "firm_window_hours": 12,
  "order_rule": "Sorted by pick strength (●●● firm, then ●● leans by confidence), then Watch only by house liability.",
  "watch_divider_text": "Watch only. No rule fires.",
- "generated_at": "2026-11-09T09:09:05-08:00",
+ "generated_at": "2026-11-09T15:02:08-08:00",
  "week": {
   "season": 2026,
   "week": 9,
@@ -14,28 +14,28 @@
   {
    "name": "Action Network",
    "url": "https://www.actionnetwork.com/nfl/public-betting",
-   "fetched_at": "2026-11-09T09:09:02-08:00",
+   "fetched_at": "2026-11-09T15:02:07-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "WiseGuy",
    "url": "https://wiseguyteam.com/nfl-betting-splits",
-   "fetched_at": "2026-11-09T09:03:48-08:00",
+   "fetched_at": "2026-11-09T14:42:06-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN standings",
    "url": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=2026",
-   "fetched_at": "2026-11-09T09:09:04-08:00",
+   "fetched_at": "2026-11-09T15:02:08-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN injuries",
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
-   "fetched_at": "2026-11-09T09:09:05-08:00",
+   "fetched_at": "2026-11-09T15:02:08-08:00",
    "ok": true,
    "error": null
   }
@@ -55,20 +55,20 @@
   {
    "id": "2026_09_BUF_MIN",
    "rank": 1,
-   "liability_score": 94.0,
+   "liability_score": 80.0,
    "away": "BUF",
    "home": "MIN",
    "kickoff_pt": "2026-11-09T17:15:00-08:00",
    "kickoff_display": "Mon 11/9 5:15 PM PT",
    "line": {
     "spread_fav": "BUF",
-    "spread": -3,
-    "home_spread": 3,
-    "home_spread_price": 102,
-    "away_spread_price": -122,
-    "total": 44.5,
-    "ml_away": -185,
-    "ml_home": 154,
+    "spread": -3.5,
+    "home_spread": 3.5,
+    "home_spread_price": -115,
+    "away_spread_price": -105,
+    "total": 45.5,
+    "ml_away": -198,
+    "ml_home": 164,
     "book": "DraftKings"
    },
    "open": {
@@ -83,36 +83,36 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 9:09 AM · WiseGuy 9:03 AM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:42 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-09T09:09:02-08:00",
+     "fetched_at": "2026-11-09T15:02:07-08:00",
      "spread_side": "BUF",
-     "spread_bets": 69,
-     "spread_money": 55,
+     "spread_bets": 65,
+     "spread_money": 53,
      "ml_side": "BUF",
      "ml_bets": 90,
-     "ml_money": 85,
-     "over_bets": 70,
-     "over_money": 62
+     "ml_money": 89,
+     "over_bets": 65,
+     "over_money": 57
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-09T09:03:48-08:00",
+     "fetched_at": "2026-11-09T14:42:06-08:00",
      "spread_side": "BUF",
-     "spread_bets": 78,
-     "spread_money": 85,
+     "spread_bets": 75,
+     "spread_money": 69,
      "ml_side": "BUF",
-     "ml_bets": 79,
-     "ml_money": 75,
-     "over_bets": 73,
-     "over_money": 85
+     "ml_bets": 78,
+     "ml_money": 77,
+     "over_bets": 71,
+     "over_money": 74
     }
    },
    "markets": [
     {
      "market": "spread",
      "order": 1,
-     "pick": "House side: MIN +3 · Watch only",
+     "pick": "House side: MIN +3.5 · Watch only",
      "dots": null,
      "watch_only": true,
      "confidence_pct": null,
@@ -122,14 +122,14 @@
      "units": null,
      "level": "DISAGREE",
      "market_label": "SPREAD",
-     "price": 102,
+     "price": -115,
      "provisional": false,
-     "display": "SPREAD · House side: MIN +3 · Watch only"
+     "display": "SPREAD · House side: MIN +3.5 · Watch only"
     },
     {
      "market": "total",
      "order": 2,
-     "pick": "House side: Under 44.5 · Watch only",
+     "pick": "House side: Under 45.5 · Watch only",
      "dots": null,
      "watch_only": true,
      "confidence_pct": null,
@@ -141,12 +141,12 @@
      "market_label": "OVER/UNDER",
      "price": null,
      "provisional": false,
-     "display": "OVER/UNDER · House side: Under 44.5 · Watch only"
+     "display": "OVER/UNDER · House side: Under 45.5 · Watch only"
     },
     {
      "market": "moneyline",
      "order": 3,
-     "pick": "House side: MIN +154 · Watch only",
+     "pick": "House side: MIN +164 · Watch only",
      "dots": null,
      "watch_only": true,
      "confidence_pct": null,
@@ -158,7 +158,7 @@
      "market_label": "MONEYLINE",
      "price": null,
      "provisional": false,
-     "display": "MONEYLINE · House side: MIN +154 · Watch only"
+     "display": "MONEYLINE · House side: MIN +164 · Watch only"
     }
    ],
    "tags": [],
@@ -168,13 +168,14 @@
     "overs_blocked": false
    },
    "injuries": {
-    "text": "BUF: Alec Anderson (OT) Questionable; Dion Dawkins (OT) Questionable; Tyrell Shavers (WR) Out; Joshua Palmer (WR) Out; Greg Gaines (DT) Questionable | MIN: Demond Claiborne (RB) Out; Jauan Jennings (WR) Out; Kyler Murray (QB) Out; Jay Ward (S) Questionable",
-    "source": "ESPN injuries, fetched 9:09 AM PT"
+    "text": "BUF: Alec Anderson (OT) Questionable; Dion Dawkins (OT) Questionable; Tyrell Shavers (WR) Out; Greg Gaines (DT) Questionable | MIN: Jauan Jennings (WR) Out; Kyler Murray (QB) Out; Jay Ward (S) Questionable",
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
-    "Total opened 48.5, now 44.5.",
+    "BUF opened -3, now -3.5.",
+    "Total opened 48.5, now 45.5.",
     "Elite exception: BUF is top-5, so no fade promotion.",
-    "Money side BUF (avg 73.5% bets / 70% money). House liability score 94."
+    "Money side BUF (avg 70% bets / 61% money). House liability score 80."
    ],
    "locked": false,
    "liability_rank": 1,
