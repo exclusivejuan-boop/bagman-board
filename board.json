@@ -4,7 +4,7 @@
  "firm_window_hours": 12,
  "order_rule": "Sorted by pick strength (●●● firm, then ●● leans by confidence), then Watch only by house liability.",
  "watch_divider_text": "Watch only. No rule fires.",
- "generated_at": "2026-11-09T09:08:35-08:00",
+ "generated_at": "2026-11-09T09:09:05-08:00",
  "week": {
   "season": 2026,
   "week": 9,
@@ -14,28 +14,28 @@
   {
    "name": "Action Network",
    "url": "https://www.actionnetwork.com/nfl/public-betting",
-   "fetched_at": "2026-11-09T09:08:31-08:00",
+   "fetched_at": "2026-11-09T09:09:02-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "WiseGuy",
    "url": "https://wiseguyteam.com/nfl-betting-splits",
-   "fetched_at": "2026-11-09T08:58:44-08:00",
+   "fetched_at": "2026-11-09T09:03:48-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN standings",
    "url": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=2026",
-   "fetched_at": "2026-11-09T09:08:35-08:00",
+   "fetched_at": "2026-11-09T09:09:04-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN injuries",
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
-   "fetched_at": "2026-11-09T09:08:35-08:00",
+   "fetched_at": "2026-11-09T09:09:05-08:00",
    "ok": true,
    "error": null
   }
@@ -83,10 +83,10 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 9:08 AM · WiseGuy 8:58 AM · DISAGREE",
+   "sources_line": "Action Network 9:09 AM · WiseGuy 9:03 AM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-09T09:08:31-08:00",
+     "fetched_at": "2026-11-09T09:09:02-08:00",
      "spread_side": "BUF",
      "spread_bets": 69,
      "spread_money": 55,
@@ -97,7 +97,7 @@
      "over_money": 62
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-09T08:58:44-08:00",
+     "fetched_at": "2026-11-09T09:03:48-08:00",
      "spread_side": "BUF",
      "spread_bets": 78,
      "spread_money": 85,
@@ -169,7 +169,7 @@
    },
    "injuries": {
     "text": "BUF: Alec Anderson (OT) Questionable; Dion Dawkins (OT) Questionable; Tyrell Shavers (WR) Out; Joshua Palmer (WR) Out; Greg Gaines (DT) Questionable | MIN: Demond Claiborne (RB) Out; Jauan Jennings (WR) Out; Kyler Murray (QB) Out; Jay Ward (S) Questionable",
-    "source": "ESPN injuries, fetched 9:08 AM PT"
+    "source": "ESPN injuries, fetched 9:09 AM PT"
    },
    "notes": [
     "Total opened 48.5, now 44.5.",
