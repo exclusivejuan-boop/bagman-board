@@ -4,7 +4,7 @@
  "firm_window_hours": 12,
  "order_rule": "Sorted by pick strength (●●● firm, then ●● leans by confidence), then Watch only by house liability.",
  "watch_divider_text": "Watch only. No rule fires.",
- "generated_at": "2026-11-08T14:02:23-08:00",
+ "generated_at": "2026-11-08T16:09:02-08:00",
  "week": {
   "season": 2026,
   "week": 9,
@@ -14,28 +14,28 @@
   {
    "name": "Action Network",
    "url": "https://www.actionnetwork.com/nfl/public-betting",
-   "fetched_at": "2026-11-08T14:02:21-08:00",
+   "fetched_at": "2026-11-08T16:09:00-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "WiseGuy",
    "url": "https://wiseguyteam.com/nfl-betting-splits",
-   "fetched_at": "2026-11-08T13:37:06-08:00",
+   "fetched_at": "2026-11-08T15:53:20-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN standings",
    "url": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=2026",
-   "fetched_at": "2026-11-08T14:02:22-08:00",
+   "fetched_at": "2026-11-08T16:09:01-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN injuries",
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
-   "fetched_at": "2026-11-08T14:02:22-08:00",
+   "fetched_at": "2026-11-08T16:09:01-08:00",
    "ok": true,
    "error": null
   }
@@ -208,7 +208,7 @@
   {
    "id": "2026_09_TB_CHI",
    "rank": 2,
-   "liability_score": 107.5,
+   "liability_score": 113.5,
    "away": "TB",
    "home": "CHI",
    "kickoff_pt": "2026-11-08T17:20:00-08:00",
@@ -217,11 +217,11 @@
     "spread_fav": "CHI",
     "spread": -6,
     "home_spread": -6,
-    "home_spread_price": -112,
-    "away_spread_price": -108,
+    "home_spread_price": -118,
+    "away_spread_price": -102,
     "total": 47.5,
-    "ml_away": 220,
-    "ml_home": -270,
+    "ml_away": 225,
+    "ml_home": -278,
     "book": "DraftKings"
    },
    "open": {
@@ -236,29 +236,29 @@
     "moneyline": "FULL",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:02 PM · WiseGuy 1:37 PM · DISAGREE",
+   "sources_line": "Action Network 4:09 PM · WiseGuy 3:53 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-08T14:02:21-08:00",
+     "fetched_at": "2026-11-08T16:09:00-08:00",
      "spread_side": "CHI",
-     "spread_bets": 71,
-     "spread_money": 71,
+     "spread_bets": 70,
+     "spread_money": 73,
      "ml_side": "CHI",
-     "ml_bets": 95,
-     "ml_money": 86,
-     "over_bets": 66,
-     "over_money": 70
+     "ml_bets": 94,
+     "ml_money": 89,
+     "over_bets": 67,
+     "over_money": 67
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-08T13:37:06-08:00",
+     "fetched_at": "2026-11-08T15:53:20-08:00",
      "spread_side": "CHI",
-     "spread_bets": 77,
-     "spread_money": 72,
+     "spread_bets": 78,
+     "spread_money": 82,
      "ml_side": "CHI",
      "ml_bets": 88,
-     "ml_money": 78,
-     "over_bets": 60,
-     "over_money": 39
+     "ml_money": 83,
+     "over_bets": 58,
+     "over_money": 46
     }
    },
    "markets": [
@@ -279,7 +279,7 @@
      "units": null,
      "level": "FULL",
      "market_label": "SPREAD",
-     "price": -108,
+     "price": -102,
      "provisional": false,
      "display": "SPREAD · House side: TB +6 · Watch only"
     },
@@ -303,7 +303,7 @@
     {
      "market": "moneyline",
      "order": 3,
-     "pick": "House side: TB +220 · Watch only",
+     "pick": "House side: TB +225 · Watch only",
      "dots": null,
      "watch_only": true,
      "confidence_pct": null,
@@ -315,24 +315,24 @@
      "market_label": "MONEYLINE",
      "price": null,
      "provisional": false,
-     "display": "MONEYLINE · House side: TB +220 · Watch only"
+     "display": "MONEYLINE · House side: TB +225 · Watch only"
     }
    ],
    "tags": [],
    "weather": {
-    "text": "44-47F, wind 7-8 mph (gusts to 18), 0% precip chance",
-    "source": "Open-Meteo forecast for Soldier Field, kickoff +3h, fetched 2:02 PM PT",
+    "text": "44-47F, wind 7-8 mph (gusts to 19), 0% precip chance",
+    "source": "Open-Meteo forecast for Soldier Field, kickoff +3h, fetched 4:09 PM PT",
     "overs_blocked": false
    },
    "injuries": {
-    "text": "TB: Emeka Egbuka (WR) Questionable; Yaya Diaby (LB) Out | CHI: Tyrique Stevenson Sr. (CB) Questionable; Malik Muhammad II (CB) Questionable; Kyle Monangai (RB) Questionable",
-    "source": "ESPN injuries, fetched 2:02 PM PT"
+    "text": "TB: Yaya Diaby (LB) Out | CHI: Tyrique Stevenson Sr. (CB) Questionable; Malik Muhammad II (CB) Out; Kyle Monangai (RB) Out",
+    "source": "ESPN injuries, fetched 4:09 PM PT"
    },
    "notes": [
     "CHI opened -3.5, now -6.",
     "Total opened 48.5, now 47.5.",
     "Elite exception: CHI is top-5, so no fade promotion.",
-    "Money side CHI (avg 74% bets / 71.5% money). House liability score 107.5."
+    "Money side CHI (avg 74% bets / 77.5% money). House liability score 113.5."
    ],
    "locked": false,
    "liability_rank": 1,
@@ -342,7 +342,7 @@
   {
    "id": "2026_09_BUF_MIN",
    "rank": 3,
-   "liability_score": 98.5,
+   "liability_score": 100.5,
    "away": "BUF",
    "home": "MIN",
    "kickoff_pt": "2026-11-09T17:15:00-08:00",
@@ -370,29 +370,29 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:02 PM · WiseGuy 1:37 PM · DISAGREE",
+   "sources_line": "Action Network 4:09 PM · WiseGuy 3:53 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-08T14:02:21-08:00",
+     "fetched_at": "2026-11-08T16:09:00-08:00",
      "spread_side": "BUF",
-     "spread_bets": 66,
-     "spread_money": 68,
+     "spread_bets": 67,
+     "spread_money": 69,
      "ml_side": "BUF",
-     "ml_bets": 91,
-     "ml_money": 90,
-     "over_bets": 67,
-     "over_money": 53
+     "ml_bets": 90,
+     "ml_money": 91,
+     "over_bets": 68,
+     "over_money": 55
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-08T13:37:06-08:00",
+     "fetched_at": "2026-11-08T15:53:20-08:00",
      "spread_side": "BUF",
-     "spread_bets": 77,
-     "spread_money": 81,
+     "spread_bets": 78,
+     "spread_money": 84,
      "ml_side": "BUF",
      "ml_bets": 80,
-     "ml_money": 75,
+     "ml_money": 70,
      "over_bets": 74,
-     "over_money": 90
+     "over_money": 94
     }
    },
    "markets": [
@@ -456,12 +456,12 @@
    },
    "injuries": {
     "text": "BUF: Alec Anderson (OT) Questionable; Dion Dawkins (OT) Questionable; Tyrell Shavers (WR) Out; Joshua Palmer (WR) Out; Greg Gaines (DT) Questionable | MIN: Demond Claiborne (RB) Out; Jauan Jennings (WR) Out; Kyler Murray (QB) Out; Jay Ward (S) Questionable",
-    "source": "ESPN injuries, fetched 2:02 PM PT"
+    "source": "ESPN injuries, fetched 4:09 PM PT"
    },
    "notes": [
     "Total opened 48.5, now 43.5.",
     "Elite exception: BUF is top-5, so no fade promotion.",
-    "Money side BUF (avg 71.5% bets / 74.5% money). House liability score 98.5."
+    "Money side BUF (avg 72.5% bets / 76.5% money). House liability score 100.5."
    ],
    "locked": false,
    "liability_rank": 2,
