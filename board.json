@@ -4,7 +4,7 @@
  "firm_window_hours": 12,
  "order_rule": "Sorted by pick strength (●●● firm, then ●● leans by confidence), then Watch only by house liability.",
  "watch_divider_text": "Watch only. No rule fires.",
- "generated_at": "2026-11-15T09:58:01-08:00",
+ "generated_at": "2026-11-15T11:58:12-08:00",
  "week": {
   "season": 2026,
   "week": 10,
@@ -14,28 +14,28 @@
   {
    "name": "Action Network",
    "url": "https://www.actionnetwork.com/nfl/public-betting",
-   "fetched_at": "2026-11-15T09:57:58-08:00",
+   "fetched_at": "2026-11-15T11:58:09-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "WiseGuy",
    "url": "https://wiseguyteam.com/nfl-betting-splits",
-   "fetched_at": "2026-11-15T09:39:07-08:00",
+   "fetched_at": "2026-11-15T11:55:30-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN standings",
    "url": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=2026",
-   "fetched_at": "2026-11-15T09:58:00-08:00",
+   "fetched_at": "2026-11-15T11:58:11-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN injuries",
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
-   "fetched_at": "2026-11-15T09:58:01-08:00",
+   "fetched_at": "2026-11-15T11:58:11-08:00",
    "ok": true,
    "error": null
   }
@@ -55,7 +55,7 @@
   {
    "id": "2026_10_SF_DAL",
    "rank": 1,
-   "liability_score": 79.0,
+   "liability_score": 70.0,
    "away": "SF",
    "home": "DAL",
    "kickoff_pt": "2026-11-15T13:25:00-08:00",
@@ -83,29 +83,29 @@
     "moneyline": "FULL",
     "total": "FULL"
    },
-   "sources_line": "Action Network 9:57 AM · WiseGuy 9:39 AM · FULL",
+   "sources_line": "Action Network 11:58 AM · WiseGuy 11:55 AM · FULL",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-15T09:57:58-08:00",
-     "spread_side": "SF",
-     "spread_bets": 71,
-     "spread_money": 58,
-     "ml_side": "SF",
-     "ml_bets": 94,
-     "ml_money": 90,
-     "over_bets": 74,
-     "over_money": 79
-    },
-    "WiseGuy": {
-     "fetched_at": "2026-11-15T09:39:07-08:00",
+     "fetched_at": "2026-11-15T11:58:09-08:00",
      "spread_side": "SF",
      "spread_bets": 69,
-     "spread_money": 68,
+     "spread_money": 55,
      "ml_side": "SF",
-     "ml_bets": 87,
-     "ml_money": 82,
-     "over_bets": 65,
-     "over_money": 83
+     "ml_bets": 94,
+     "ml_money": 89,
+     "over_bets": 74,
+     "over_money": 80
+    },
+    "WiseGuy": {
+     "fetched_at": "2026-11-15T11:55:30-08:00",
+     "spread_side": "SF",
+     "spread_bets": 69,
+     "spread_money": 63,
+     "ml_side": "SF",
+     "ml_bets": 86,
+     "ml_money": 80,
+     "over_bets": 68,
+     "over_money": 85
     }
    },
    "markets": [
@@ -117,9 +117,7 @@
      "watch_only": true,
      "confidence_pct": null,
      "record": null,
-     "lean_names": [
-      "Darling Favorite Fade"
-     ],
+     "lean_names": [],
      "firm": false,
      "units": null,
      "level": "FULL",
@@ -173,17 +171,16 @@
     "overs_blocked": false
    },
    "injuries": {
-    "text": "SF: Trent Williams (OT) Questionable; Renardo Green (CB) Questionable; Deommodore Lenoir (CB) Questionable; Dre Greenlaw (LB) Questionable; Mike Evans (WR) Out; Upton Stout (CB) Questionable; Brandon Aiyuk (WR) Out | DAL: Joey Porter Jr. (CB) Questionable; DaRon Bland (CB) Questionable; Jonathan Bullard (DT) Questionable; Donovan Ezeiruaku (LB) Out; Jonathan Mingo (WR) Out; Juanyeh Thomas (S) Doubtful; Alijah Clark (S) Questionable; P.J. Locke (S) Out; Jake Ferguson (TE) Out",
-    "source": "ESPN injuries, fetched 9:58 AM PT"
+    "text": "SF: Mike Evans (WR) Out; Trent Williams (OT) Questionable; Renardo Green (CB) Questionable; Deommodore Lenoir (CB) Questionable; Dre Greenlaw (LB) Questionable; Upton Stout (CB) Questionable; Brandon Aiyuk (WR) Out | DAL: Joey Porter Jr. (CB) Questionable; DaRon Bland (CB) Questionable; Jonathan Bullard (DT) Questionable; Donovan Ezeiruaku (LB) Out; Jonathan Mingo (WR) Out; Juanyeh Thomas (S) Doubtful; Alijah Clark (S) Questionable; P.J. Locke (S) Out; Jake Ferguson (TE) Out",
+    "source": "ESPN injuries, fetched 11:58 AM PT"
    },
    "notes": [
     "SF opened +1.5, now -4.5.",
     "Total opened 52.5, now 55.5.",
-    "Elite exception: SF is top-5, so no fade promotion.",
-    "Money side SF (avg 70% bets / 63% money). House liability score 79."
+    "Money side SF (avg 69% bets / 59% money). House liability score 70."
    ],
    "locked": false,
-   "liability_rank": 6,
+   "liability_rank": 9,
    "tier": "LEAN",
    "best_pick": {
     "market": "total",
@@ -334,9 +331,11 @@
    "notes": [
     "BUF opened -7, now -8.5.",
     "Total opened 46.5, now 50.5.",
-    "Money side BUF (avg 86% bets / 82.5% money). House liability score 108.5."
+    "Money side BUF (avg 86% bets / 82.5% money). House liability score 108.5.",
+    "Locked at kickoff: picks frozen from the board generated 2026-11-15T09:58:01-08:00.",
+    "Game status: inprogress."
    ],
-   "locked": false,
+   "locked": true,
    "liability_rank": 1,
    "tier": "LEAN",
    "best_pick": {
@@ -351,7 +350,8 @@
     "text": "Lean only.",
     "display": "SPREAD ●● NYJ +8.5 · -115 · 59% · 41-19 · Lean only.",
     "provisional": false
-   }
+   },
+   "locked_from": "2026-11-15T09:58:01-08:00"
   },
   {
    "id": "2026_10_JAX_TEN",
@@ -492,9 +492,11 @@
    },
    "notes": [
     "JAX opened -2.5, now -10.5.",
-    "Money side JAX (avg 79.5% bets / 80.5% money). House liability score 101.5."
+    "Money side JAX (avg 79.5% bets / 80.5% money). House liability score 101.5.",
+    "Locked at kickoff: picks frozen from the board generated 2026-11-15T09:58:01-08:00.",
+    "Game status: inprogress."
    ],
-   "locked": false,
+   "locked": true,
    "liability_rank": 2,
    "tier": "LEAN",
    "best_pick": {
@@ -509,7 +511,8 @@
     "text": "Lean only.",
     "display": "SPREAD ●● TEN +10.5 · -105 · 59% · 41-19 · Lean only.",
     "provisional": false
-   }
+   },
+   "locked_from": "2026-11-15T09:58:01-08:00"
   },
   {
    "id": "2026_10_MIN_GB",
@@ -644,10 +647,12 @@
    "notes": [
     "GB opened -4.5, now -2.5.",
     "Total opened 45.5, now 42.5.",
-    "Money side GB (avg 64.5% bets / 67.5% money). House liability score 73.5."
+    "Money side GB (avg 64.5% bets / 67.5% money). House liability score 73.5.",
+    "Locked at kickoff: picks frozen from the board generated 2026-11-15T09:58:01-08:00.",
+    "Game status: inprogress."
    ],
-   "locked": false,
-   "liability_rank": 9,
+   "locked": true,
+   "liability_rank": 8,
    "tier": "LEAN",
    "best_pick": {
     "market": "total",
@@ -661,12 +666,13 @@
     "text": "Lean only.",
     "display": "OVER/UNDER ●● Under 42.5 · 56% · 87-65-2 · Lean only.",
     "provisional": false
-   }
+   },
+   "locked_from": "2026-11-15T09:58:01-08:00"
   },
   {
    "id": "2026_10_PIT_CIN",
    "rank": 5,
-   "liability_score": 70.0,
+   "liability_score": 68.5,
    "away": "PIT",
    "home": "CIN",
    "kickoff_pt": "2026-11-15T17:20:00-08:00",
@@ -688,56 +694,54 @@
     "home_spread": -3.5,
     "total": 47.5
    },
-   "data_level": "FULL",
+   "data_level": "DISAGREE",
    "market_levels": {
-    "spread": "FULL",
+    "spread": "DISAGREE",
     "moneyline": "FULL",
     "total": "FULL"
    },
-   "sources_line": "Action Network 9:57 AM · WiseGuy 9:39 AM · FULL",
+   "sources_line": "Action Network 11:58 AM · WiseGuy 11:55 AM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-15T09:57:58-08:00",
-     "spread_side": "CIN",
-     "spread_bets": 55,
-     "spread_money": 55,
+     "fetched_at": "2026-11-15T11:58:09-08:00",
+     "spread_side": "PIT",
+     "spread_bets": 47,
+     "spread_money": 54,
      "ml_side": "CIN",
      "ml_bets": 85,
      "ml_money": 90,
-     "over_bets": 68,
-     "over_money": 76
+     "over_bets": 70,
+     "over_money": 77
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-15T09:39:07-08:00",
+     "fetched_at": "2026-11-15T11:55:30-08:00",
      "spread_side": "CIN",
-     "spread_bets": 61,
-     "spread_money": 57,
+     "spread_bets": 60,
+     "spread_money": 63,
      "ml_side": "CIN",
      "ml_bets": 81,
-     "ml_money": 81,
+     "ml_money": 80,
      "over_bets": 70,
-     "over_money": 82
+     "over_money": 80
     }
    },
    "markets": [
     {
      "market": "spread",
      "order": 1,
-     "pick": "House side: PIT +3.5 · Watch only",
+     "pick": "House side split (AN: CIN -3.5, WG: PIT +3.5) · Watch only",
      "dots": null,
      "watch_only": true,
      "confidence_pct": null,
      "record": null,
-     "lean_names": [
-      "Division Dog"
-     ],
+     "lean_names": [],
      "firm": false,
      "units": null,
-     "level": "FULL",
+     "level": "DISAGREE",
      "market_label": "SPREAD",
-     "price": -110,
+     "price": null,
      "provisional": false,
-     "display": "SPREAD · House side: PIT +3.5 · Watch only"
+     "display": "SPREAD · House side split (AN: CIN -3.5, WG: PIT +3.5) · Watch only"
     },
     {
      "market": "total",
@@ -785,17 +789,17 @@
     }
    ],
    "weather": {
-    "text": "38-40F, wind 3-4 mph (gusts to 11), 0% precip chance",
-    "source": "Open-Meteo forecast for Paycor Stadium, kickoff +3h, fetched 9:58 AM PT",
+    "text": "39-40F, wind 2-4 mph (gusts to 11), 0% precip chance",
+    "source": "Open-Meteo forecast for Paycor Stadium, kickoff +3h, fetched 11:58 AM PT",
     "overs_blocked": true
    },
    "injuries": {
     "text": "PIT: Derrick Harmon (DT) Questionable; Pat Freiermuth (TE) Questionable | CIN: Dalton Risner (G) Questionable; Myles Hinton (OT) Questionable; Kyle Dugger (S) Out",
-    "source": "ESPN injuries, fetched 9:58 AM PT"
+    "source": "ESPN injuries, fetched 11:58 AM PT"
    },
    "notes": [
     "Total opened 47.5, now 49.5.",
-    "Money side CIN (avg 58% bets / 56% money). House liability score 70."
+    "Money side CIN (avg 56.5% bets / 54.5% money). House liability score 68.5."
    ],
    "locked": false,
    "liability_rank": 10,
@@ -817,7 +821,7 @@
   {
    "id": "2026_10_SEA_LV",
    "rank": 6,
-   "liability_score": 100.5,
+   "liability_score": 99.5,
    "away": "SEA",
    "home": "LV",
    "kickoff_pt": "2026-11-15T13:05:00-08:00",
@@ -843,31 +847,31 @@
    "market_levels": {
     "spread": "DISAGREE",
     "moneyline": "FULL",
-    "total": "FULL"
+    "total": "DISAGREE"
    },
-   "sources_line": "Action Network 9:57 AM · WiseGuy 9:39 AM · DISAGREE",
+   "sources_line": "Action Network 11:58 AM · WiseGuy 11:55 AM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-15T09:57:58-08:00",
+     "fetched_at": "2026-11-15T11:58:09-08:00",
      "spread_side": "SEA",
-     "spread_bets": 75,
-     "spread_money": 80,
+     "spread_bets": 74,
+     "spread_money": 81,
      "ml_side": "SEA",
-     "ml_bets": 96,
+     "ml_bets": 95,
      "ml_money": 98,
      "over_bets": 74,
-     "over_money": 71
+     "over_money": 69
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-15T09:39:07-08:00",
+     "fetched_at": "2026-11-15T11:55:30-08:00",
      "spread_side": "SEA",
      "spread_bets": 80,
-     "spread_money": 69,
+     "spread_money": 66,
      "ml_side": "SEA",
      "ml_bets": 92,
-     "ml_money": 91,
-     "over_bets": 65,
-     "over_money": 62
+     "ml_money": 89,
+     "over_bets": 63,
+     "over_money": 61
     }
    },
    "markets": [
@@ -902,7 +906,7 @@
      "lean_names": [],
      "firm": false,
      "units": null,
-     "level": "FULL",
+     "level": "DISAGREE",
      "market_label": "OVER/UNDER",
      "price": null,
      "provisional": false,
@@ -933,13 +937,13 @@
     "overs_blocked": false
    },
    "injuries": {
-    "text": "SEA: Quenton Nelson (G) Out; Charles Cross (OT) Out; Leonard Williams (DT) Out; Sam Darnold (QB) Out | LV: Thomas Booker IV (DT) Questionable; Dont'e Thornton Jr. (WR) Questionable",
-    "source": "ESPN injuries, fetched 9:58 AM PT"
+    "text": "SEA: Leonard Williams (DT) Out; Emanuel Wilson (RB) Out; Quenton Nelson (G) Out; Avery Smith (CB) Out; Charles Cross (OT) Out; Sam Darnold (QB) Out; Deven Eastern (DT) Out | LV: Thomas Booker IV (DT) Questionable; Dont'e Thornton Jr. (WR) Questionable",
+    "source": "ESPN injuries, fetched 11:58 AM PT"
    },
    "notes": [
     "SEA opened -7, now -6.5.",
     "Total opened 43.5, now 40.5.",
-    "Money side SEA (avg 77.5% bets / 74.5% money). House liability score 100.5."
+    "Money side SEA (avg 77% bets / 73.5% money). House liability score 99.5."
    ],
    "locked": false,
    "liability_rank": 3,
@@ -1070,17 +1074,20 @@
    "notes": [
     "KC opened -4.5, now -3.",
     "Total opened 45.5, now 47.5.",
-    "Money side KC (avg 81.5% bets / 67% money). House liability score 83."
+    "Money side KC (avg 81.5% bets / 67% money). House liability score 83.",
+    "Locked at kickoff: picks frozen from the board generated 2026-11-15T09:58:01-08:00.",
+    "Game status: inprogress."
    ],
-   "locked": false,
+   "locked": true,
    "liability_rank": 4,
    "tier": "WATCH",
-   "best_pick": null
+   "best_pick": null,
+   "locked_from": "2026-11-15T09:58:01-08:00"
   },
   {
    "id": "2026_10_LAR_ARI",
    "rank": 8,
-   "liability_score": 80.5,
+   "liability_score": 79.5,
    "away": "LAR",
    "home": "ARI",
    "kickoff_pt": "2026-11-15T13:05:00-08:00",
@@ -1108,29 +1115,29 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 9:57 AM · WiseGuy 9:39 AM · DISAGREE",
+   "sources_line": "Action Network 11:58 AM · WiseGuy 11:55 AM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-15T09:57:58-08:00",
+     "fetched_at": "2026-11-15T11:58:09-08:00",
      "spread_side": "LAR",
      "spread_bets": 76,
-     "spread_money": 81,
+     "spread_money": 78,
      "ml_side": "LAR",
      "ml_bets": 97,
      "ml_money": 94,
-     "over_bets": 64,
-     "over_money": 67
+     "over_bets": 66,
+     "over_money": 69
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-15T09:39:07-08:00",
+     "fetched_at": "2026-11-15T11:55:30-08:00",
      "spread_side": "LAR",
      "spread_bets": 61,
-     "spread_money": 54,
+     "spread_money": 55,
      "ml_side": "LAR",
      "ml_bets": 94,
      "ml_money": 83,
      "over_bets": 71,
-     "over_money": 23
+     "over_money": 37
     }
    },
    "markets": [
@@ -1157,7 +1164,7 @@
     {
      "market": "total",
      "order": 2,
-     "pick": "House side: Over 38.5 · Watch only",
+     "pick": "House side: Under 38.5 · Watch only",
      "dots": null,
      "watch_only": true,
      "confidence_pct": null,
@@ -1169,7 +1176,7 @@
      "market_label": "OVER/UNDER",
      "price": null,
      "provisional": false,
-     "display": "OVER/UNDER · House side: Over 38.5 · Watch only"
+     "display": "OVER/UNDER · House side: Under 38.5 · Watch only"
     },
     {
      "market": "moneyline",
@@ -1201,13 +1208,13 @@
     "overs_blocked": false
    },
    "injuries": {
-    "text": "LAR: Steve Avila (G) Out; Trent McDuffie (CB) Questionable; Kam Curl (S) Questionable; Davis Allen (TE) Questionable; Myles Garrett (DE) Questionable; Joe Cardona (LS) Questionable | ARI: Hunter Long (TE) Questionable; Jayden Williams (OT) Questionable; Jon Gaines II (G) Out; Hjalte Froholdt (C) Out; Andrew Wingard (S) Questionable; Darius Robinson (DE) Questionable; Max Melton (CB) Questionable",
-    "source": "ESPN injuries, fetched 9:58 AM PT"
+    "text": "LAR: Keagen Trost (OT) Out; Darryl Peterson III (LB) Out; Maximus Pulley (S) Out; Ty Simpson (QB) Out; Desjuan Johnson (DE) Out; Joe Cardona (LS) Out; Steve Avila (G) Out | ARI: Jayden Williams (OT) Out; Starling Thomas V (CB) Out; Eku Leota (LB) Out; Hjalte Froholdt (C) Out; Jon Gaines II (G) Out; Joey Aguilar (QB) Out",
+    "source": "ESPN injuries, fetched 11:58 AM PT"
    },
    "notes": [
     "LAR opened -10.5, now -9.5.",
     "Total opened 47.5, now 38.5.",
-    "Money side LAR (avg 68.5% bets / 67.5% money). House liability score 80.5."
+    "Money side LAR (avg 68.5% bets / 66.5% money). House liability score 79.5."
    ],
    "locked": false,
    "liability_rank": 5,
@@ -1215,142 +1222,8 @@
    "best_pick": null
   },
   {
-   "id": "2026_10_LAC_BAL",
-   "rank": 9,
-   "liability_score": 76.5,
-   "away": "LAC",
-   "home": "BAL",
-   "kickoff_pt": "2026-11-16T17:15:00-08:00",
-   "kickoff_display": "Mon 11/16 5:15 PM PT",
-   "line": {
-    "spread_fav": "BAL",
-    "spread": -4.5,
-    "home_spread": -4.5,
-    "home_spread_price": -112,
-    "away_spread_price": -108,
-    "total": 38.5,
-    "ml_away": 185,
-    "ml_home": -225,
-    "book": "DraftKings"
-   },
-   "open": {
-    "spread_fav": "BAL",
-    "spread": -3.5,
-    "home_spread": -3.5,
-    "total": 47.5
-   },
-   "data_level": "DISAGREE",
-   "market_levels": {
-    "spread": "DISAGREE",
-    "moneyline": "DISAGREE",
-    "total": "DISAGREE"
-   },
-   "sources_line": "Action Network 9:57 AM · WiseGuy 9:39 AM · DISAGREE",
-   "splits": {
-    "Action Network": {
-     "fetched_at": "2026-11-15T09:57:58-08:00",
-     "spread_side": "BAL",
-     "spread_bets": 36,
-     "spread_money": 62,
-     "ml_side": "BAL",
-     "ml_bets": 82,
-     "ml_money": 65,
-     "over_bets": 71,
-     "over_money": 69
-    },
-    "WiseGuy": {
-     "fetched_at": "2026-11-15T09:39:07-08:00",
-     "spread_side": "BAL",
-     "spread_bets": 53,
-     "spread_money": 69,
-     "ml_side": "LAC",
-     "ml_bets": 30,
-     "ml_money": 55,
-     "over_bets": 71,
-     "over_money": 83
-    }
-   },
-   "markets": [
-    {
-     "market": "spread",
-     "order": 1,
-     "pick": "House side: LAC +4.5 · Watch only",
-     "dots": null,
-     "watch_only": true,
-     "confidence_pct": null,
-     "record": null,
-     "lean_names": [],
-     "firm": false,
-     "units": null,
-     "level": "DISAGREE",
-     "market_label": "SPREAD",
-     "price": -108,
-     "provisional": false,
-     "display": "SPREAD · House side: LAC +4.5 · Watch only"
-    },
-    {
-     "market": "total",
-     "order": 2,
-     "pick": "House side: Under 38.5 · Watch only",
-     "dots": null,
-     "watch_only": true,
-     "confidence_pct": null,
-     "record": null,
-     "lean_names": [],
-     "firm": false,
-     "units": null,
-     "level": "DISAGREE",
-     "market_label": "OVER/UNDER",
-     "price": null,
-     "provisional": false,
-     "display": "OVER/UNDER · House side: Under 38.5 · Watch only"
-    },
-    {
-     "market": "moneyline",
-     "order": 3,
-     "pick": "House side: LAC +185 · Watch only",
-     "dots": null,
-     "watch_only": true,
-     "confidence_pct": null,
-     "record": null,
-     "lean_names": [],
-     "firm": false,
-     "units": null,
-     "level": "DISAGREE",
-     "market_label": "MONEYLINE",
-     "price": null,
-     "provisional": false,
-     "display": "MONEYLINE · House side: LAC +185 · Watch only"
-    }
-   ],
-   "tags": [
-    {
-     "type": "CAUTION",
-     "reason": "Weather (Overs blocked)"
-    }
-   ],
-   "weather": {
-    "text": "37-40F, wind 4 mph (gusts to 7), 0% precip chance",
-    "source": "Open-Meteo forecast for M&T Bank Stadium, kickoff +3h, fetched 9:58 AM PT",
-    "overs_blocked": true
-   },
-   "injuries": {
-    "text": "LAC: Branson Taylor (G) Out; Kayode Awosika (G) Questionable; Kendall Williamson (S) Out; Isas Waxter (CB) Out; Justin Eboigbe (DT) Questionable; Ladd McConkey (WR) Questionable; Brenen Thompson (WR) Doubtful | BAL: Jaylinn Hawkins (S) Out",
-    "source": "ESPN injuries, fetched 9:58 AM PT"
-   },
-   "notes": [
-    "BAL opened -3.5, now -4.5.",
-    "Total opened 47.5, now 38.5.",
-    "Money side BAL (avg 44.5% bets / 65.5% money). House liability score 76.5."
-   ],
-   "locked": false,
-   "liability_rank": 7,
-   "tier": "WATCH",
-   "best_pick": null
-  },
-  {
    "id": "2026_10_CAR_NO",
-   "rank": 10,
+   "rank": 9,
    "liability_score": 74.5,
    "away": "CAR",
    "home": "NO",
@@ -1478,10 +1351,147 @@
    "notes": [
     "CAR opened +1.5, now -1.5.",
     "Total opened 43.5, now 48.5.",
-    "Money side CAR (avg 66.5% bets / 68.5% money). House liability score 74.5."
+    "Money side CAR (avg 66.5% bets / 68.5% money). House liability score 74.5.",
+    "Locked at kickoff: picks frozen from the board generated 2026-11-15T09:58:01-08:00.",
+    "Game status: inprogress."
+   ],
+   "locked": true,
+   "liability_rank": 6,
+   "tier": "WATCH",
+   "best_pick": null,
+   "locked_from": "2026-11-15T09:58:01-08:00"
+  },
+  {
+   "id": "2026_10_LAC_BAL",
+   "rank": 10,
+   "liability_score": 74.0,
+   "away": "LAC",
+   "home": "BAL",
+   "kickoff_pt": "2026-11-16T17:15:00-08:00",
+   "kickoff_display": "Mon 11/16 5:15 PM PT",
+   "line": {
+    "spread_fav": "BAL",
+    "spread": -4.5,
+    "home_spread": -4.5,
+    "home_spread_price": -112,
+    "away_spread_price": -108,
+    "total": 38.5,
+    "ml_away": 185,
+    "ml_home": -225,
+    "book": "DraftKings"
+   },
+   "open": {
+    "spread_fav": "BAL",
+    "spread": -3.5,
+    "home_spread": -3.5,
+    "total": 47.5
+   },
+   "data_level": "DISAGREE",
+   "market_levels": {
+    "spread": "DISAGREE",
+    "moneyline": "DISAGREE",
+    "total": "DISAGREE"
+   },
+   "sources_line": "Action Network 11:58 AM · WiseGuy 11:55 AM · DISAGREE",
+   "splits": {
+    "Action Network": {
+     "fetched_at": "2026-11-15T11:58:09-08:00",
+     "spread_side": "BAL",
+     "spread_bets": 37,
+     "spread_money": 61,
+     "ml_side": "BAL",
+     "ml_bets": 82,
+     "ml_money": 63,
+     "over_bets": 71,
+     "over_money": 68
+    },
+    "WiseGuy": {
+     "fetched_at": "2026-11-15T11:55:30-08:00",
+     "spread_side": "BAL",
+     "spread_bets": 54,
+     "spread_money": 65,
+     "ml_side": "LAC",
+     "ml_bets": 30,
+     "ml_money": 59,
+     "over_bets": 65,
+     "over_money": 86
+    }
+   },
+   "markets": [
+    {
+     "market": "spread",
+     "order": 1,
+     "pick": "House side: LAC +4.5 · Watch only",
+     "dots": null,
+     "watch_only": true,
+     "confidence_pct": null,
+     "record": null,
+     "lean_names": [],
+     "firm": false,
+     "units": null,
+     "level": "DISAGREE",
+     "market_label": "SPREAD",
+     "price": -108,
+     "provisional": false,
+     "display": "SPREAD · House side: LAC +4.5 · Watch only"
+    },
+    {
+     "market": "total",
+     "order": 2,
+     "pick": "House side: Under 38.5 · Watch only",
+     "dots": null,
+     "watch_only": true,
+     "confidence_pct": null,
+     "record": null,
+     "lean_names": [],
+     "firm": false,
+     "units": null,
+     "level": "DISAGREE",
+     "market_label": "OVER/UNDER",
+     "price": null,
+     "provisional": false,
+     "display": "OVER/UNDER · House side: Under 38.5 · Watch only"
+    },
+    {
+     "market": "moneyline",
+     "order": 3,
+     "pick": "House side: LAC +185 · Watch only",
+     "dots": null,
+     "watch_only": true,
+     "confidence_pct": null,
+     "record": null,
+     "lean_names": [],
+     "firm": false,
+     "units": null,
+     "level": "DISAGREE",
+     "market_label": "MONEYLINE",
+     "price": null,
+     "provisional": false,
+     "display": "MONEYLINE · House side: LAC +185 · Watch only"
+    }
+   ],
+   "tags": [
+    {
+     "type": "CAUTION",
+     "reason": "Weather (Overs blocked)"
+    }
+   ],
+   "weather": {
+    "text": "37-40F, wind 4 mph (gusts to 7), 0% precip chance",
+    "source": "Open-Meteo forecast for M&T Bank Stadium, kickoff +3h, fetched 11:58 AM PT",
+    "overs_blocked": true
+   },
+   "injuries": {
+    "text": "LAC: Branson Taylor (G) Out; Kayode Awosika (G) Questionable; Kendall Williamson (S) Out; Isas Waxter (CB) Out; Justin Eboigbe (DT) Questionable; Ladd McConkey (WR) Questionable; Brenen Thompson (WR) Doubtful | BAL: Jaylinn Hawkins (S) Out",
+    "source": "ESPN injuries, fetched 11:58 AM PT"
+   },
+   "notes": [
+    "BAL opened -3.5, now -4.5.",
+    "Total opened 47.5, now 38.5.",
+    "Money side BAL (avg 45.5% bets / 63% money). House liability score 74."
    ],
    "locked": false,
-   "liability_rank": 8,
+   "liability_rank": 7,
    "tier": "WATCH",
    "best_pick": null
   },
@@ -1611,12 +1621,15 @@
    },
    "notes": [
     "Total opened 38.5, now 40.5.",
-    "Money side HOU (avg 68.5% bets / 58.5% money). House liability score 64.5."
+    "Money side HOU (avg 68.5% bets / 58.5% money). House liability score 64.5.",
+    "Locked at kickoff: picks frozen from the board generated 2026-11-15T09:58:01-08:00.",
+    "Game status: inprogress."
    ],
-   "locked": false,
+   "locked": true,
    "liability_rank": 11,
    "tier": "WATCH",
-   "best_pick": null
+   "best_pick": null,
+   "locked_from": "2026-11-15T09:58:01-08:00"
   },
   {
    "id": "2026_10_MIA_IND",
@@ -1740,12 +1753,15 @@
    "notes": [
     "IND opened -6.5, now -4.5.",
     "Total opened 47.5, now 37.5.",
-    "Money side IND (avg 56% bets / 56% money). House liability score 59."
+    "Money side IND (avg 56% bets / 56% money). House liability score 59.",
+    "Locked at kickoff: picks frozen from the board generated 2026-11-15T09:58:01-08:00.",
+    "Game status: inprogress."
    ],
-   "locked": false,
+   "locked": true,
    "liability_rank": 12,
    "tier": "WATCH",
-   "best_pick": null
+   "best_pick": null,
+   "locked_from": "2026-11-15T09:58:01-08:00"
   }
  ],
  "rules_summary": {
