@@ -4,7 +4,7 @@
  "firm_window_hours": 12,
  "order_rule": "Sorted by pick strength (●●● firm, then ●● leans by confidence), then Watch only by house liability.",
  "watch_divider_text": "Watch only. No rule fires.",
- "generated_at": "2026-11-16T08:47:42-08:00",
+ "generated_at": "2026-11-16T14:47:10-08:00",
  "week": {
   "season": 2026,
   "week": 10,
@@ -14,28 +14,28 @@
   {
    "name": "Action Network",
    "url": "https://www.actionnetwork.com/nfl/public-betting",
-   "fetched_at": "2026-11-16T08:47:38-08:00",
+   "fetched_at": "2026-11-16T14:47:09-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "WiseGuy",
    "url": "https://wiseguyteam.com/nfl-betting-splits",
-   "fetched_at": "2026-11-16T08:35:30-08:00",
+   "fetched_at": "2026-11-16T14:38:36-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN standings",
    "url": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=2026",
-   "fetched_at": "2026-11-16T08:47:40-08:00",
+   "fetched_at": "2026-11-16T14:47:10-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN injuries",
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
-   "fetched_at": "2026-11-16T08:47:40-08:00",
+   "fetched_at": "2026-11-16T14:47:10-08:00",
    "ok": true,
    "error": null
   }
@@ -59,7 +59,7 @@
   {
    "id": "2026_10_LAC_BAL",
    "rank": 1,
-   "liability_score": 63.5,
+   "liability_score": 62.0,
    "away": "LAC",
    "home": "BAL",
    "kickoff_pt": "2026-11-16T17:15:00-08:00",
@@ -87,29 +87,29 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 8:47 AM · WiseGuy 8:35 AM · DISAGREE",
+   "sources_line": "Action Network 2:47 PM · WiseGuy 2:38 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-16T08:47:38-08:00",
+     "fetched_at": "2026-11-16T14:47:09-08:00",
      "spread_side": "BAL",
-     "spread_bets": 46,
-     "spread_money": 68,
+     "spread_bets": 49,
+     "spread_money": 63,
      "ml_side": "BAL",
      "ml_bets": 82,
      "ml_money": 64,
-     "over_bets": 73,
-     "over_money": 73
+     "over_bets": 71,
+     "over_money": 76
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-16T08:35:30-08:00",
+     "fetched_at": "2026-11-16T14:38:36-08:00",
      "spread_side": "LAC",
      "spread_bets": 42,
-     "spread_money": 63,
+     "spread_money": 61,
      "ml_side": "BAL",
-     "ml_bets": 66,
-     "ml_money": 60,
-     "over_bets": 68,
-     "over_money": 93
+     "ml_bets": 64,
+     "ml_money": 50,
+     "over_bets": 65,
+     "over_money": 58
     }
    },
    "markets": [
@@ -167,18 +167,18 @@
    ],
    "tags": [],
    "weather": {
-    "text": "40-43F, wind 5 mph (gusts to 11), 0% precip chance",
-    "source": "Open-Meteo forecast for M&T Bank Stadium, kickoff +3h, fetched 8:47 AM PT",
+    "text": "42-45F, wind 5-6 mph (gusts to 12), 0% precip chance",
+    "source": "Open-Meteo forecast for M&T Bank Stadium, kickoff +3h, fetched 2:47 PM PT",
     "overs_blocked": false
    },
    "injuries": {
-    "text": "LAC: Ladd McConkey (WR) Out; Branson Taylor (G) Out; Kayode Awosika (G) Questionable; Kendall Williamson (S) Out; Isas Waxter (CB) Out; Justin Eboigbe (DT) Questionable; Brenen Thompson (WR) Doubtful | BAL: Jaylinn Hawkins (S) Out",
-    "source": "ESPN injuries, fetched 8:47 AM PT"
+    "text": "LAC: Denzel Perryman (LB) Questionable; Brenen Thompson (WR) Doubtful; Ladd McConkey (WR) Out; Kayode Awosika (G) Questionable; Kendall Williamson (S) Out; Isas Waxter (CB) Out; Justin Eboigbe (DT) Questionable | BAL: Jaylinn Hawkins (S) Out",
+    "source": "ESPN injuries, fetched 2:47 PM PT"
    },
    "notes": [
     "BAL opened -3.5, now -4.5.",
     "Total opened 47.5, now 39.5.",
-    "Money side BAL (avg 52% bets / 52.5% money). House liability score 63.5."
+    "Money side BAL (avg 53.5% bets / 51% money). House liability score 62."
    ],
    "locked": false,
    "liability_rank": 1,
