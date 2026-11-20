@@ -4,7 +4,7 @@
  "firm_window_hours": 12,
  "order_rule": "Sorted by pick strength (●●● firm, then ●● leans by confidence), then Watch only by house liability.",
  "watch_divider_text": "Watch only. No rule fires.",
- "generated_at": "2026-11-20T14:56:47-08:00",
+ "generated_at": "2026-11-20T15:02:28-08:00",
  "week": {
   "season": 2026,
   "week": 11,
@@ -14,7 +14,7 @@
   {
    "name": "Action Network",
    "url": "https://www.actionnetwork.com/nfl/public-betting",
-   "fetched_at": "2026-11-20T14:56:45-08:00",
+   "fetched_at": "2026-11-20T15:02:25-08:00",
    "ok": true,
    "error": null
   },
@@ -28,14 +28,14 @@
   {
    "name": "ESPN standings",
    "url": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=2026",
-   "fetched_at": "2026-11-20T14:56:45-08:00",
+   "fetched_at": "2026-11-20T15:02:26-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN injuries",
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
-   "fetched_at": "2026-11-20T14:56:46-08:00",
+   "fetched_at": "2026-11-20T15:02:27-08:00",
    "ok": true,
    "error": null
   }
@@ -59,7 +59,7 @@
   {
    "id": "2026_11_TEN_DAL",
    "rank": 1,
-   "liability_score": 67.5,
+   "liability_score": 68.0,
    "away": "TEN",
    "home": "DAL",
    "kickoff_pt": "2026-11-22T10:00:00-08:00",
@@ -87,13 +87,13 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "TEN",
      "spread_bets": 52,
-     "spread_money": 53,
+     "spread_money": 54,
      "ml_side": "DAL",
      "ml_bets": 96,
      "ml_money": 94,
@@ -176,12 +176,12 @@
    },
    "injuries": {
     "text": "TEN: Tony Adams (S) Questionable; Tyjae Spears (RB) Questionable; Carnell Tate (WR) Questionable; Anthony Hill Jr. (LB) Questionable | DAL: Luke Schoonmaker (TE) Questionable; Jonathan Mingo (WR) Out; P.J. Locke (S) Out; Jaishawn Barham (LB) Questionable; Jake Ferguson (TE) Out; DaRon Bland (CB) Out; Tyler Booker (G) Out",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "DAL opened -6.5, now -8.5.",
     "Total opened 48.5, now 54.5.",
-    "Money side TEN (avg 50% bets / 56.5% money). House liability score 67.5."
+    "Money side TEN (avg 50% bets / 57% money). House liability score 68."
    ],
    "locked": false,
    "liability_rank": 5,
@@ -216,7 +216,7 @@
     "away_spread_price": -112,
     "total": 44.5,
     "ml_away": 920,
-    "ml_home": -1640,
+    "ml_home": -1660,
     "book": "DraftKings"
    },
    "open": {
@@ -231,10 +231,10 @@
     "moneyline": "FULL",
     "total": "FULL"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · FULL",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · FULL",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "MIA",
      "spread_bets": 47,
      "spread_money": 53,
@@ -318,12 +318,12 @@
    "tags": [],
    "weather": {
     "text": "60-64F, wind 11-12 mph (gusts to 24), 1-2% precip chance",
-    "source": "Open-Meteo forecast for Highmark Stadium, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for Highmark Stadium, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": false
    },
    "injuries": {
     "text": "MIA: Jaylin Simpson (S) Doubtful; Jared Wayne (WR) Out; Dante Trader Jr. (S) Doubtful; Bradley Pinion (P) Out; Darrell Baker Jr. (CB) Out; Aaron Brewer (C) Questionable | BUF: Damar Hamlin (S) Questionable; Jackson Hawes (TE) Questionable; Dorian Williams (LB) Out; Christian Benford (CB) Out; Dalton Kincaid (TE) Doubtful; Dee Alford (CB) Questionable; T.J. Sanders (DT) Questionable",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "BUF opened -11.5, now -16.5.",
@@ -378,10 +378,10 @@
     "moneyline": "DISAGREE",
     "total": "FULL"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "LV",
      "spread_bets": 51,
      "spread_money": 51,
@@ -463,12 +463,12 @@
    "tags": [],
    "weather": {
     "text": "44-46F, wind 4-6 mph (gusts to 8), 0% precip chance",
-    "source": "Open-Meteo forecast for Empower Field, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for Empower Field, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": false
    },
    "injuries": {
     "text": "LV: Matt Gay (PK) Questionable; Tonka Hemingway (DT) Out; Brock Bowers (TE) Questionable; Folorunso Fatukasi (DT) Questionable | DEN: Brandon Jones (S) Questionable",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "DEN opened -7.5, now -10.5.",
@@ -523,10 +523,10 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "TB",
      "spread_bets": 59,
      "spread_money": 61,
@@ -613,7 +613,7 @@
    },
    "injuries": {
     "text": "TB: Antoine Winfield Jr. (S) Out; Baker Mayfield (QB) Questionable; Yaya Diaby (LB) Questionable | DET: D.J. Reed (CB) Questionable; Sione Vaki (RB) Questionable; Cade Mays (C) Out; Tyler Lacy (DT) Questionable; Ennis Rakestraw Jr. (CB) Questionable; Khalil Dorsey (CB) Questionable; Joe Bachie (LB) Questionable",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "DET opened -4.5, now -5.5.",
@@ -668,10 +668,10 @@
     "moneyline": "FULL",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "CIN",
      "spread_bets": 77,
      "spread_money": 63,
@@ -752,12 +752,12 @@
    "tags": [],
    "weather": {
     "text": "51-55F, wind 7-9 mph (gusts to 20), 5% precip chance",
-    "source": "Open-Meteo forecast for Northwest Stadium, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for Northwest Stadium, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": false
    },
    "injuries": {
     "text": "CIN: Dalton Risner (G) Questionable; Oren Burks (LB) Questionable; Dax Hill (CB) Questionable; Dylan Fairchild (G) Questionable; Kyle Dugger (S) Questionable | WAS: Treylon Burks (WR) Questionable; Rachaad White (RB) Questionable; Quan Martin (S) Questionable",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "CIN opened -1.5, now -6.",
@@ -801,10 +801,10 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "JAX",
      "spread_bets": 76,
      "spread_money": 75,
@@ -890,12 +890,12 @@
    ],
    "weather": {
     "text": "56-57F, wind 6-9 mph (gusts to 23), 69% precip chance, rain/storms in forecast",
-    "source": "Open-Meteo forecast for MetLife Stadium, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for MetLife Stadium, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": true
    },
    "injuries": {
     "text": "JAX: Danny Striggow (DE) Questionable; Matt Dickerson (DE) Questionable; Robert Hainsey (C) Out",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "JAX opened -1.5, now -6.",
@@ -938,10 +938,10 @@
     "moneyline": "FULL",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "CHI",
      "spread_bets": 59,
      "spread_money": 58,
@@ -1024,12 +1024,12 @@
    ],
    "weather": {
     "text": "53-55F, wind 10-11 mph (gusts to 23), 31-89% precip chance, rain/storms in forecast",
-    "source": "Open-Meteo forecast for Soldier Field, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for Soldier Field, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": true
    },
    "injuries": {
     "text": "NO: Martin Emerson Jr. (CB) Out; Pete Werner (LB) Questionable; Erik McCoy (C) Out; Taliese Fuaga (OT) Out; Decamerion Richardson (CB) Questionable; Asim Richards (OT) Out | CHI: Kyler Gordon (CB) Out; Zavion Thomas (WR) Questionable",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "CHI opened -6.5, now -11.5.",
@@ -1072,10 +1072,10 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "SF",
      "spread_bets": 32,
      "spread_money": 62,
@@ -1153,12 +1153,12 @@
    "tags": [],
    "weather": {
     "text": "51-53F, wind 2-3 mph (gusts to 4), 30% precip chance",
-    "source": "Open-Meteo forecast for Levi's Stadium, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for Levi's Stadium, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": false
    },
    "injuries": {
     "text": "MIN: Isaiah Rodgers (CB) Questionable; Kyler Murray (QB) Out; Jay Ward (S) Questionable; Jordan Addison (WR) Out | SF: Mike Evans (WR) Questionable; Dre Greenlaw (LB) Questionable; Mac Jones (QB) Questionable; Isaac Guerendo (RB) Out; Jordan James (RB) Questionable; Upton Stout (CB) Questionable; Khalid Kareem (DE) Questionable; Luke Gifford (LB) Questionable; Brandon Aiyuk (WR) Out",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "SF opened -3.5, now -3.",
@@ -1201,10 +1201,10 @@
     "moneyline": "DISAGREE",
     "total": "FULL"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "CAR",
      "spread_bets": 71,
      "spread_money": 70,
@@ -1291,12 +1291,12 @@
    ],
    "weather": {
     "text": "56-58F, wind 6-7 mph (gusts to 15), 29-45% precip chance",
-    "source": "Open-Meteo forecast for Bank of America Stadium, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for Bank of America Stadium, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": false
    },
    "injuries": {
     "text": "BAL: Jaylinn Hawkins (S) Out; Nnamdi Madubuike (DT) Out; Marlon Humphrey (CB) Out | CAR: Bobby Okereke (LB) Out; Isaiah Simmons (S) Out; Darren Waller (TE) Questionable; Tommy Tremble (TE) Questionable",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "CAR opened +4.5, now -3.",
@@ -1339,10 +1339,10 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "ARI",
      "spread_bets": 68,
      "spread_money": 69,
@@ -1425,12 +1425,12 @@
    ],
    "weather": {
     "text": "50-53F, wind 14-15 mph (gusts to 20), 1-36% precip chance",
-    "source": "Open-Meteo forecast for Arrowhead Stadium, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for Arrowhead Stadium, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": true
    },
    "injuries": {
     "text": "ARI: Jon Gaines II (G) Out; Carson Beck (QB) Questionable | KC: Peter Woods (DT) Questionable; Trey Smith (G) Out; Jaylon Moore (OT) Out; Kenneth Walker III (RB) Out; Omarr Norman-Lott (DT) Questionable",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "KC opened -11.5, now -16.5.",
@@ -1473,10 +1473,10 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "NYJ",
      "spread_bets": 66,
      "spread_money": 68,
@@ -1559,7 +1559,7 @@
    },
    "injuries": {
     "text": "NYJ: Isaiah Williams (WR) Out; Omar Cooper Jr. (WR) Out; Harrison Phillips (DT) Questionable; Joseph Ossai (DE) Questionable; Trevin Wallace (LB) Questionable; Dylan Parham (G) Questionable | LAC: Tarheeb Still (CB) Questionable; Kendall Williamson (S) Out; Rodney Shelley (CB) Out; Charlie Kolar (TE) Questionable; Ladd McConkey (WR) Questionable; Daiyan Henley (LB) Out; Brenen Thompson (WR) Doubtful; Isas Waxter (CB) Questionable",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "LAC opened -9.5, now -3.",
@@ -1601,10 +1601,10 @@
     "moneyline": "DISAGREE",
     "total": "DISAGREE"
    },
-   "sources_line": "Action Network 2:56 PM · WiseGuy 2:37 PM · DISAGREE",
+   "sources_line": "Action Network 3:02 PM · WiseGuy 2:37 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-20T14:56:45-08:00",
+     "fetched_at": "2026-11-20T15:02:25-08:00",
      "spread_side": "PHI",
      "spread_bets": 72,
      "spread_money": 72,
@@ -1690,12 +1690,12 @@
    ],
    "weather": {
     "text": "59-60F, wind 7-8 mph (gusts to 20), 31-67% precip chance, rain/storms in forecast",
-    "source": "Open-Meteo forecast for Lincoln Financial Field, kickoff +3h, fetched 2:56 PM PT",
+    "source": "Open-Meteo forecast for Lincoln Financial Field, kickoff +3h, fetched 3:02 PM PT",
     "overs_blocked": true
    },
    "injuries": {
     "text": "PIT: DeShon Elliott (S) Questionable; Nick Herbig (LB) Questionable; Patrick Queen (LB) Questionable | PHI: Smael Mondon Jr. (LB) Doubtful; Zack Baun (LB) Out; Dontayvion Wicks (WR) Out",
-    "source": "ESPN injuries, fetched 2:56 PM PT"
+    "source": "ESPN injuries, fetched 3:02 PM PT"
    },
    "notes": [
     "PIT opened +5.5, now -3.5.",
