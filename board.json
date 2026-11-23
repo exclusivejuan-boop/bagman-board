@@ -4,7 +4,7 @@
  "firm_window_hours": 12,
  "order_rule": "Sorted by pick strength (●●● firm, then ●● leans by confidence), then Watch only by house liability.",
  "watch_divider_text": "Watch only. No rule fires.",
- "generated_at": "2026-11-23T08:48:38-08:00",
+ "generated_at": "2026-11-23T14:53:29-08:00",
  "week": {
   "season": 2026,
   "week": 11,
@@ -14,28 +14,28 @@
   {
    "name": "Action Network",
    "url": "https://www.actionnetwork.com/nfl/public-betting",
-   "fetched_at": "2026-11-23T08:48:33-08:00",
+   "fetched_at": "2026-11-23T14:53:25-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "WiseGuy",
    "url": "https://wiseguyteam.com/nfl-betting-splits",
-   "fetched_at": "2026-11-23T08:44:20-08:00",
+   "fetched_at": "2026-11-23T14:42:51-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN standings",
    "url": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=2026",
-   "fetched_at": "2026-11-23T08:48:37-08:00",
+   "fetched_at": "2026-11-23T14:53:29-08:00",
    "ok": true,
    "error": null
   },
   {
    "name": "ESPN injuries",
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
-   "fetched_at": "2026-11-23T08:48:37-08:00",
+   "fetched_at": "2026-11-23T14:53:29-08:00",
    "ok": true,
    "error": null
   }
@@ -56,7 +56,7 @@
   {
    "id": "2026_11_CIN_WAS",
    "rank": 1,
-   "liability_score": 115.5,
+   "liability_score": 117.5,
    "away": "CIN",
    "home": "WAS",
    "kickoff_pt": "2026-11-23T17:15:00-08:00",
@@ -65,11 +65,11 @@
     "spread_fav": "CIN",
     "spread": -6,
     "home_spread": 6,
-    "home_spread_price": -102,
-    "away_spread_price": -118,
+    "home_spread_price": 100,
+    "away_spread_price": -120,
     "total": 54.5,
-    "ml_away": -298,
-    "ml_home": 243,
+    "ml_away": -291,
+    "ml_home": 238,
     "book": "DraftKings"
    },
    "open": {
@@ -78,35 +78,35 @@
     "home_spread": 1.5,
     "total": 52.5
    },
-   "data_level": "FULL",
+   "data_level": "DISAGREE",
    "market_levels": {
     "spread": "FULL",
     "moneyline": "FULL",
-    "total": "FULL"
+    "total": "DISAGREE"
    },
-   "sources_line": "Action Network 8:48 AM · WiseGuy 8:44 AM · FULL",
+   "sources_line": "Action Network 2:53 PM · WiseGuy 2:42 PM · DISAGREE",
    "splits": {
     "Action Network": {
-     "fetched_at": "2026-11-23T08:48:33-08:00",
+     "fetched_at": "2026-11-23T14:53:25-08:00",
      "spread_side": "CIN",
-     "spread_bets": 83,
+     "spread_bets": 74,
      "spread_money": 80,
      "ml_side": "CIN",
-     "ml_bets": 94,
+     "ml_bets": 92,
      "ml_money": 85,
-     "over_bets": 65,
-     "over_money": 68
+     "over_bets": 54,
+     "over_money": 55
     },
     "WiseGuy": {
-     "fetched_at": "2026-11-23T08:44:20-08:00",
+     "fetched_at": "2026-11-23T14:42:51-08:00",
      "spread_side": "CIN",
-     "spread_bets": 85,
-     "spread_money": 83,
+     "spread_bets": 83,
+     "spread_money": 87,
      "ml_side": "CIN",
-     "ml_bets": 93,
-     "ml_money": 90,
-     "over_bets": 58,
-     "over_money": 65
+     "ml_bets": 92,
+     "ml_money": 91,
+     "over_bets": 62,
+     "over_money": 75
     }
    },
    "markets": [
@@ -126,7 +126,7 @@
      "units": null,
      "level": "FULL",
      "market_label": "SPREAD",
-     "price": -102,
+     "price": 100,
      "provisional": false,
      "display": "SPREAD · House side: WAS +6 · Watch only"
     },
@@ -141,7 +141,7 @@
      "lean_names": [],
      "firm": false,
      "units": null,
-     "level": "FULL",
+     "level": "DISAGREE",
      "market_label": "OVER/UNDER",
      "price": null,
      "provisional": false,
@@ -150,7 +150,7 @@
     {
      "market": "moneyline",
      "order": 3,
-     "pick": "House side: WAS +243 · Watch only",
+     "pick": "House side: WAS +238 · Watch only",
      "dots": null,
      "watch_only": true,
      "confidence_pct": null,
@@ -162,28 +162,28 @@
      "market_label": "MONEYLINE",
      "price": null,
      "provisional": false,
-     "display": "MONEYLINE · House side: WAS +243 · Watch only"
+     "display": "MONEYLINE · House side: WAS +238 · Watch only"
     }
    ],
    "tags": [
     {
      "type": "CAUTION",
-     "reason": "Wind 13 mph (Overs blocked)"
+     "reason": "Wind 14 mph (Overs blocked)"
     }
    ],
    "weather": {
-    "text": "49-55F, wind 10-13 mph (gusts to 26), 1-5% precip chance",
-    "source": "Open-Meteo forecast for Northwest Stadium, kickoff +3h, fetched 8:48 AM PT",
+    "text": "51-57F, wind 11-14 mph (gusts to 26), 3-17% precip chance",
+    "source": "Open-Meteo forecast for Northwest Stadium, kickoff +3h, fetched 2:53 PM PT",
     "overs_blocked": true
    },
    "injuries": {
-    "text": "CIN: Kyle Dugger (S) Questionable; Dalton Risner (G) Out; Dax Hill (CB) Questionable; Dylan Fairchild (G) Questionable | WAS: Lucas Patrick (G) Questionable; Amik Robertson (CB) Questionable; Rachaad White (RB) Questionable",
-    "source": "ESPN injuries, fetched 8:48 AM PT"
+    "text": "CIN: Swayze Bozeman (LB) Questionable; Brian Parker II (OT) Questionable; Kyle Dugger (S) Questionable; Dalton Risner (G) Out; Dax Hill (CB) Questionable; Dylan Fairchild (G) Questionable | WAS: Lucas Patrick (G) Questionable; Amik Robertson (CB) Questionable; Rachaad White (RB) Questionable",
+    "source": "ESPN injuries, fetched 2:53 PM PT"
    },
    "notes": [
     "CIN opened -1.5, now -6.",
     "Total opened 52.5, now 54.5.",
-    "Money side CIN (avg 84% bets / 81.5% money). House liability score 115.5."
+    "Money side CIN (avg 78.5% bets / 83.5% money). House liability score 117.5."
    ],
    "locked": false,
    "liability_rank": 1,
